@@ -33,6 +33,7 @@
   }
 
   .tab {
+    font-size: @font-size;
     position: relative;
     top: @tab-top-padding;
     max-width: @tab-max-width;
@@ -82,6 +83,10 @@
       text-align: right;
       line-height: @tab-height;
       color: @text-color;
+
+      &:before {
+        font-size: 22px;
+      }
 
       &:hover {
         color: inherit;
